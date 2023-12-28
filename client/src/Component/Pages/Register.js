@@ -41,7 +41,7 @@ const Register = () => {
                     {fname, email, password, phone}
                 )
                 if (res && res.data) {
-                    console.log(res.data.message);
+                    navigate("/login")
                 } else {
                     console.log("Unexpected response format:", res);
                 }
