@@ -31,10 +31,10 @@ export const registerController = async(req, res)=>{
             });
 
             const storedata = await fineluser.save();
-            res.status(201).json({
-                status: 201,
-                message: "User Register Successfully", 
-                data: storedata
+            res.status(201).send({
+                success: true,
+                message: "User Register Successfully",
+                storedata
             })
         }
 

@@ -21,17 +21,17 @@ const Footer = () => {
                         </div>
                         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
                             <li className="ms-3">
-                                <a className="text-white" href="https://twitter.com/Dharamraj_Ydv" target="_blank">
+                                <a className="text-white" rel="noreferrer" href="https://twitter.com/Dharamraj_Ydv" target="_blank">
                                     <i class="fa-brands fa-twitter"></i>
                                 </a>
                             </li>
                             <li className="ms-3">
-                                <a className="text-white" href="https://www.instagram.com/dharam._yadav_/" target="_blank">
+                                <a className="text-white" rel="noreferrer" href="https://www.instagram.com/dharam._yadav_/" target="_blank">
                                     <i class="fa-brands fa-facebook"></i>
                                 </a>
                             </li>
                             <li className="ms-3">
-                                <a className="text-white" href="https://www.instagram.com/dharam._yadav_/" target="_blank">
+                                <a className="text-white" rel="noreferrer" href="https://www.instagram.com/dharam._yadav_/" target="_blank">
                                     <i class="fa-brands fa-instagram"></i>
                                 </a>
                             </li>
